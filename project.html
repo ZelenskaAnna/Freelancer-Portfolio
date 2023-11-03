@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Freelancer Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <a href="/"><span>Freelancer</span> portfolio</a>
+            </div>
+            <input id="menuCheckbox" type="checkbox">
+            <ul class="header__ul">
+                <li class="header__li"><a href="/" class="header__a">Projects</a></li>
+                <li class="header__li"><a href="/" class="header__a">Skills</a></li>
+                <li class="header__li"><a href="/" class="header__a">Contacts</a></li>
+            </ul>
+            <label for="menuCheckbox" class="menu-burger">
+                <span class="material-icons icon-menu">menu</span>
+            </label>
+        </nav>
+    </header>
+    <section class="projects-page">
+        <div class="container projects-page__container">
+            <h1 class="projects-page__title">Video service</h1>
+            <a href="/" class="projects-page__a"><img src="/img/video-service.png" alt="Video" class="projects-page__img"></a>
+            <h4 class="projects-page__skills">Skills: React, Node.js, MongoDB</h4>
+            <a href="/" class="projects-page__btn"><img class="projects-page_btn_img" src="/img/gitHub-black.svg" alt="Github"><span projects-page_btn-name>GitHub repo</span></a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__socials">
+            <a href="/" class="footer__a"><img class="footer__img" src="img/vk.svg" alt="VK"></a>
+            <a href="/" class="footer__a"><img class="footer__img" src="img/instagram.svg" alt="Instagram"></a>
+            <a href="/" class="footer__a"><img class="footer__img" src="img/twitter.svg" alt="Twitter"></a>
+            <a href="/" class="footer__a"><img class="footer__img" src="img/gitHub.svg" alt="GitHub"></a>
+            <a href="/" class="footer__a"><img class="footer__img" src="img/linkedIn.svg" alt="LinkedIn"></a>
+        </div>
+        <p class="footer__desc">© 2022 frontend-dev.com</p>
+    </footer>
+</body>
+
+</html>
