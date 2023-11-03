@@ -16,7 +16,7 @@ body {
   border-radius: 5px;
   background: #5c62ec;
   display: inline-block;
-  bottom: 0;
+  border: 0;
   cursor: pointer;
   padding: 12px 28px;
   text-align: center;
